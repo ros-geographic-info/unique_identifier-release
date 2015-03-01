@@ -1,0 +1,12 @@
+Source: ros-jade-unique-id
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-roscpp, ros-jade-rospy, ros-jade-rosunit, ros-jade-uuid-msgs
+Homepage: http://ros.org/wiki/unique_id
+Standards-Version: 3.9.2
+
+Package: ros-jade-unique-id
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-roscpp, ros-jade-rospy, ros-jade-uuid-msgs
+Description: ROS Python and C++ interfaces for universally unique identifiers.
