@@ -1,0 +1,12 @@
+Source: ros-kinetic-unique-id
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-rosunit, ros-kinetic-uuid-msgs
+Homepage: http://ros.org/wiki/unique_id
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-unique-id
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-uuid-msgs
+Description: ROS Python and C++ interfaces for universally unique identifiers.
