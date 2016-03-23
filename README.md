@@ -1,3 +1,29 @@
+## unique_identifier (kinetic) - 1.0.5-0
+
+The packages in the `unique_identifier` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release unique_identifier -t kinetic -r kinetic -n` on `Wed, 23 Mar 2016 22:01:41 -0000`
+
+These packages were released:
+- `unique_id`
+- `unique_identifier`
+- `uuid_msgs`
+
+Version of package(s) in repository `unique_identifier`:
+
+- upstream repository: https://github.com/ros-geographic-info/unique_identifier.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.37`
+
+
 ## unique_identifier (jade) - 1.0.5-0
 
 The packages in the `unique_identifier` repository were released into the `jade` distro by running `/usr/bin/bloom-release unique_identifier -t jade -r jade` on `Fri, 17 Apr 2015 19:50:18 -0000`
