@@ -1,0 +1,12 @@
+Source: ros-melodic-uuid-msgs
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-std-msgs
+Homepage: http://ros.org/wiki/uuid_msgs
+Standards-Version: 3.9.2
+
+Package: ros-melodic-uuid-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-message-runtime, ros-melodic-std-msgs
+Description: ROS messages for universally unique identifiers.
