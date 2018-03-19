@@ -1,3 +1,29 @@
+## unique_identifier (melodic) - 1.0.6-0
+
+The packages in the `unique_identifier` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic unique_identifier --edit` on `Mon, 19 Mar 2018 21:51:44 -0000`
+
+These packages were released:
+- `unique_id`
+- `unique_identifier`
+- `uuid_msgs`
+
+Version of package(s) in repository `unique_identifier`:
+
+- upstream repository: https://github.com/ros-geographic-info/unique_identifier.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.6-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.3`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.6`
+- vcstools version: `0.1.40`
+
+
 ## unique_identifier (lunar) - 1.0.6-0
 
 The packages in the `unique_identifier` repository were released into the `lunar` distro by running `/usr/bin/bloom-release unique_identifier -r lunar -t lunar` on `Tue, 04 Apr 2017 21:52:07 -0000`
