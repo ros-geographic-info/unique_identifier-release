@@ -1,3 +1,29 @@
+## unique_identifier (noetic) - 1.0.6-1
+
+The packages in the `unique_identifier` repository were released into the `noetic` distro by running `/usr/local/bin/bloom-release --rosdistro noetic --track noetic unique_identifier` on `Mon, 16 Mar 2020 21:10:06 -0000`
+
+These packages were released:
+- `unique_id`
+- `unique_identifier`
+- `uuid_msgs`
+
+Version of package(s) in repository `unique_identifier`:
+
+- upstream repository: https://github.com/ros-geographic-info/unique_identifier.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.6-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.0`
+- catkin_pkg version: `0.4.15`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## unique_identifier (melodic) - 1.0.6-0
 
 The packages in the `unique_identifier` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic unique_identifier --edit` on `Mon, 19 Mar 2018 21:51:44 -0000`
