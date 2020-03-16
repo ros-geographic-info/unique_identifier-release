@@ -1,0 +1,13 @@
+Source: ros-noetic-unique-identifier
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/unique_identifier
+Standards-Version: 3.9.2
+
+Package: ros-noetic-unique-identifier
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-unique-id, ros-noetic-uuid-msgs
+Description: ROS messages and interfaces for universally unique identifiers.
+ Not needed for wet packages, use only to resolve dry stack dependencies.
