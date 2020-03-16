@@ -1,0 +1,12 @@
+Source: ros-noetic-uuid-msgs
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-std-msgs
+Homepage: http://ros.org/wiki/uuid_msgs
+Standards-Version: 3.9.2
+
+Package: ros-noetic-uuid-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-message-runtime, ros-noetic-std-msgs
+Description: ROS messages for universally unique identifiers.
